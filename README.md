@@ -11,3 +11,11 @@ python bench_score.py --exe ../blyxtorch/build/blyxtorch
 ~~~
 
 The CLI checks exercise deterministic training, CSV validation, generated models and checkpoint round trips. The numerical comparison uses PyTorch autograd and selected central differences. The benchmark reports warm and fresh-process timings separately and records the executable's version. The native Blyx test suite lives with the framework. [BlyxTorch source](https://github.com/Rahulchaube1/blyxtorch)
+
+## Connect with Rahul Chaube
+
+[Portfolio](https://www.rahulchaube1.com/) · [GitHub](https://github.com/Rahulchaube1) · [LinkedIn](https://www.linkedin.com/in/rahulchaube1) · [Hugging Face](https://huggingface.co/oncody) · [X](https://x.com/RahulChaube_) · [EverestQ](https://www.everestqai.com/) · [Contact](https://www.rahulchaube1.com/contact)
+
+[Blyx website](https://www.blyx-lang.space/) · [BlyxTorch](https://www.blyx-lang.space/packages/blyxtorch) · [Handbook](https://doc.blyx-lang.space/) · [Community](https://www.blyx-lang.space/community)
+
+Support Rahul’s open-source work through [GitHub Sponsors](https://github.com/sponsors/Rahulchaube1) or [Buy Me a Coffee](https://buymeacoffee.com/rahulchaube).
