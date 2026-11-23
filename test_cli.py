@@ -43,7 +43,7 @@ def main():
         assert r["rows"]==4 and 0<r["mean_loss"]<0.01
         probs=[float(row[0]) for row in list(csv.reader(io.StringIO(invoke(cli,"predict",saved,pred_data))))[1:]]
         assert probs[0]<0.01 and probs[1]>0.99 and probs[2]>0.99 and probs[3]<0.01
-        if version == "0.2.0":
+        if tuple(map(int, version.split("."))) >= (0, 2, 0):
             common = ["250", "0.03", "4", "adam", "7"]
             assert invoke(cli, "train-score", csv_data, csv_data, *common) == invoke(cli, "score", saved, csv_data)
             assert invoke(cli, "train-predict", csv_data, pred_data, *common) == invoke(cli, "predict", saved, pred_data)
